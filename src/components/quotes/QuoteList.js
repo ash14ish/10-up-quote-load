@@ -20,7 +20,7 @@ const QuoteList = props => {
   // console.log(location);
 
   const queryParams = new URLSearchParams(location.search);
-  const isAscending = queryParams.get("sort") !== "desc";
+  const isAscending = queryParams.get("sort") !== "old";
   // console.log(isAscending);
 
   const sortedQuotes = sortQuotes(props.quotes, isAscending);
@@ -28,7 +28,7 @@ const QuoteList = props => {
   const changeSortingHandler = () => {
     // navigate("?sort=" + (isAscending ? "desc" : "asc"));
     navigate({
-      search: `?sort=${isAscending ? "desc" : "asc"}`,
+      search: `?sort=${isAscending ? "old" : "new"}`,
     });
   };
 
@@ -37,7 +37,7 @@ const QuoteList = props => {
       <div className={classes.sorting}>
         <button onClick={changeSortingHandler}>
           Sort By
-          {isAscending ? " Oldest" : " Most Recent"}
+          {isAscending ? " Most Recent" : " Oldest"}
         </button>
       </div>
 

@@ -37,7 +37,7 @@ const QuoteList = props => {
       <div className={classes.sorting}>
         <button onClick={changeSortingHandler}>
           Sort By
-          {isAscending ? " Most Recent" : " Oldest"}
+          {isAscending ? " Oldest" : " Most Recent"}
         </button>
       </div>
 

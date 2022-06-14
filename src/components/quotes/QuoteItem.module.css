@@ -60,5 +60,6 @@
   .item a {
     padding: 0.5rem;
     font-size: 0.72rem;
+    text-align: center;
   }
 }

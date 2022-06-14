@@ -59,5 +59,6 @@
 @media (max-width: 480px) {
   .item a {
     padding: 0.4rem;
+    font-size: 0.7rem;
   }
 } ;

@@ -35,3 +35,29 @@
   font-style: italic;
   color: #566d6d;
 }
+
+@media (max-width: 650px) {
+  .item blockquote {
+    font-size: 1.2rem;
+  }
+
+  .item figcaption {
+    font-size: 0.8rem;
+  }
+
+  .item a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .item a {
+    padding: 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .item a {
+    padding: 0.4rem;
+  }
+} ;

@@ -18,3 +18,23 @@
   text-align: right;
   color: #a1e0e0;
 }
+
+@media (max-width: 480px) {
+  .quote p {
+    font-size: 1.6rem;
+  }
+
+  .quote figcaption {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .quote p {
+    font-size: 1.3rem;
+  }
+
+  .quote figcaption {
+    font-size: 0.9rem;
+  }
+}

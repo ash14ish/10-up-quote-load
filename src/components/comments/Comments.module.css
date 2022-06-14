@@ -5,3 +5,23 @@
 .comments > button {
   font-size: 1.25rem;
 }
+
+@media (max-width: 480px) {
+  .comments > button {
+    font-size: 1.1rem;
+  }
+
+  .comments h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .comments > button {
+    font-size: 1rem;
+  }
+
+  .comments h2 {
+    font-size: 1.1rem;
+  }
+}

@@ -12,6 +12,7 @@ const MainNavigation = () => {
           <li>
             <NavLink
               to="/quotes"
+              end
               className={navData => {
                 return navData.isActive ? classes.active : "";
               }}

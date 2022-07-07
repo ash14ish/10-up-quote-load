@@ -3,6 +3,7 @@ import React, { Suspense } from "react";
 import LoadingSpinner from "./components/UI/LoadingSpinner";
 
 // no need of lazy loading these components
+
 import AllQuotes from "./pages/AllQuotes";
 import Comments from "../src/components/comments/Comments";
 import LayOut from "../src/components/layout/Layout";
